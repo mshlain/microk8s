@@ -1,7 +1,7 @@
 #!/bin/bash
 
 KUBE_TRACK="${KUBE_TRACK:-1.30}"            # example: "1.24"
-KUBE_VERSION="${KUBE_VERSION:-}"        # example: "v1.24.2"
+KUBE_VERSION=v1.30.11                     #https://github.com/kubernetes/kubernetes/tree/v1.30.11
 
 if [ -z "${KUBE_VERSION}" ]; then
   if [ -z "${KUBE_TRACK}" ]; then
